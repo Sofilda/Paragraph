@@ -2,14 +2,14 @@
 
 var items = new List<MenuItem>
 {
-    new("Эспрессо", 3.70),
-    new("Двойной эспрессо", 4.20),
-    new("Американо", 4.20),
-    new("Австралийский лунго", 5.80)
+    new("Espresso", 3.70),
+    new("Double espresso", 4.20),
+    new("Americano", 4.20),
+    new("Lungo", 5.80)
 };
 
 var viewer = new ConsoleViewer();
 viewer.AddToBasket(items[1], 2);
 viewer.AddToBasket(items[3], 1);
 
-Console.WriteLine($"\nИтого: {viewer.TotalPrice}");
+Console.WriteLine($"\Total: {viewer.TotalPrice}");

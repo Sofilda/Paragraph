@@ -2,8 +2,9 @@ namespace Paragraph;
 
 public class MenuItem
 {
-    public string Name { get; set; }
-    public double Price { get; set; }
+    public string Name { get; }
+
+    public double Price { get; }
 
     public MenuItem(string name, double price)
     {
